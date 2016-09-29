@@ -6,11 +6,11 @@ The stuff maybe used for "one-line" create classes and allows to forget about pa
 
 ```pascal
 MyClass := TMyclass.Create;
-try
-...
-finally
-freeandnil(MyCLass);
-end;
+   try
+   ...
+   finally
+      freeandnil(MyCLass);
+   end;
 ```
 
 Using:
