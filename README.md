@@ -5,21 +5,21 @@ This is the fork of the Interface IGarbo (http://stackoverflow.com/questions/415
 The stuff maybe used for "one-line" create classes and allows to forget about pattern 
 
 ```pascal
-MyClass := TMyclass.Create;
+MyClass := TMyClass.Create;
    try
    ...
    finally
-      freeandnil(MyCLass);
+      FreeAndNil(MyClass);
    end;
 ```
 
 Using:
 ```pascal
- MyClass := GC(TMyclass.Create).Add;
+ MyClass := GC(TMyClass.Create).Add;
  
 //Or
 
- MyClass := GC(TMyclass.Create(param1,param2)).Add;
+ MyClass := GC(TMyClass.Create(param1,param2)).Add;
  ```
  
  
