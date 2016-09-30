@@ -2,7 +2,7 @@
 
 This is the fork of the Interface IGarbo (http://stackoverflow.com/questions/415958/how-to-automatically-free-classes-objects)
 
-The stuff maybe used for "one-line" create classes and allows to forget about pattern 
+The subj maybe used for "one-line" create classes and allows to forget the next pattern: 
 
 ```pascal
 MyClass := TMyClass.Create;
